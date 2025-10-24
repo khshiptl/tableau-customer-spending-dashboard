@@ -4,14 +4,14 @@ This project analyzes and visualizes bank transaction data using SQL and Tableau
 The dataset was obtained from the **BankSim (Synthetic Financial Datasets for Fraud Detection)** dataset on [Kaggle](https://www.kaggle.com/datasets/ealaxi/banksim1).  
 It explores customer spending behavior, merchant activity, and fraud occurrence across multiple transaction categories.
 
----
+
 
 ## Overview
 
 The goal of this project is to uncover patterns in customer spending and identify potential fraud risks.  
 Using PostgreSQL for data cleaning and aggregation, the dataset was prepared for visualization in Tableau to highlight key insights about spending trends, merchant categories, and demographic behavior.
 
----
+
 
 ## Objectives
 
@@ -23,7 +23,7 @@ Using PostgreSQL for data cleaning and aggregation, the dataset was prepared for
   - Fraud frequency across spending categories.  
 - Develop an interactive Tableau dashboard to present business insights clearly.
 
----
+
 
 ## Tools and Skills
 
@@ -33,7 +33,7 @@ Using PostgreSQL for data cleaning and aggregation, the dataset was prepared for
 | Tableau Public | Data visualization and dashboard design |
 | Git / GitHub | Version control and documentation |
 
----
+
 
 ## Repository Contents
 
@@ -45,7 +45,7 @@ Using PostgreSQL for data cleaning and aggregation, the dataset was prepared for
 | `data/clean/transactions_clean.csv` | Final cleaned dataset used for Tableau |
 | `banking-dashboard.png` | Image preview of the Tableau dashboard |
 
----
+
 
 ## Key Insights
 
@@ -54,17 +54,15 @@ Using PostgreSQL for data cleaning and aggregation, the dataset was prepared for
 - Customers aged 3–5 (synthetic demographic groups) account for the majority of high-value transactions.  
 - The average transaction value is approximately $38, with a wide spread across merchant categories.
 
----
+
 
 ## Interactive Dashboard
 
 View the interactive Tableau dashboard here:  
 [Customer & Merchant Spending Insights Dashboard on Tableau Public](https://public.tableau.com/views/CustomerandMerchantSpendingInsightsDashboard/CustomerInsightsDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
----
+
 
 ## Author
 
 Created by **Khushi Patel**  
-Data Analytics & Business Insights Enthusiast  
-[LinkedIn](https://www.linkedin.com/in/khshiptl) • [GitHub](https://github.com/khshiptl)
