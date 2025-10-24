@@ -1,5 +1,7 @@
 # Customer & Merchant Spending Insights Dashboard
 
+![Dashboard Preview](https://raw.githubusercontent.com/khshiptl/tableau-customer-spending-dashboard/main/banking-dashboard.png)
+
 This project analyzes and visualizes bank transaction data using SQL and Tableau.  
 The dataset was obtained from the **BankSim (Synthetic Financial Datasets for Fraud Detection)** dataset on [Kaggle](https://www.kaggle.com/datasets/ealaxi/banksim1).  
 It explores customer spending behavior, merchant activity, and fraud occurrence across multiple transaction categories.
