@@ -1,8 +1,3 @@
-
--- Banking Analytics Dashboard - Data Cleaning Script
-
-
--- 1. Create cleaned copy of transactions table
 CREATE TABLE public.transactions_clean AS
 SELECT
     step::INT,
@@ -17,10 +12,8 @@ SELECT
     fraud
 FROM public.transactions;
 
--- 2. Verify sample output
 SELECT * FROM public.transactions_clean LIMIT 10;
 
--- 3. Optional: basic profiling
 SELECT category, COUNT(*) AS transaction_count
 FROM public.transactions_clean
 GROUP BY category
@@ -30,3 +23,4 @@ LIMIT 10;
 SELECT ROUND(AVG(amount), 2) AS avg_transaction,
        MAX(amount) AS max_transaction
 FROM public.transactions_clean;
+
